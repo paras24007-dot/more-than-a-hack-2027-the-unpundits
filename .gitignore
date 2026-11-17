@@ -1,0 +1,24 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+
+# Competition data is licensed and must never be published.
+data/
+*.mp4
+*.wav
+*_atd.txt
+*_atd.xml
+*_homography.csv
+*_smart_tagging.xml
+
+# Reproducible generated files and diagnostics.
+deliverables/*.csv
+work/audio/
+work/*_intervals.csv
+work/*_weak_events.csv
+
+# Local packaging and document-rendering artefacts.
+tmp/
+The_Unpundits_source.zip
+
